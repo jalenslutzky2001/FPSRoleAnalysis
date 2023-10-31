@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/4E/BF8TFQFZH55643U4NJYE5N.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/A2/5KDI0L5POHYCAX7OANJSLZ.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/3B/FOPMENJ6G5KRWANNF3DAJP.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/CM/6JPRW2UKNUC9K4W0TPE60L.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/X8/U04M875BWW4RM76T3609TY.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/C6/U18QGGDNTD9460NDI26UMK.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/0Z/XGQOF5D3PHIZ6SLE0TLDZB.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/H6/O1RP73320WQ4AGGRT0WO30.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/J4/DBMV2PS8R7RCD0XF85ZSBW.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/V7/770CCU2NCS0DXCQ36U6TT5.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/TF/3ZZKH9ROLMUIAL37XHGUBZ.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/99/BF5IKNQNWDTNRSU8G3W6U0.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/KA/41MRS4NOLEBEHYRV19OEDL.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/6D/TMAO7F7XGEAZFH023SYDAJ.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/2N/UL8N2YPT4WH5EIC7U6YP3Z.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/58/74WJ4X1ICJL8XJ4WH0XWDD.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/ER/5VGV0LG04YIBR6X1JWONEQ.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HE/YN7RQ44TFH3R7I4G4DBXBR.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/LX/I6IN4WOZ0RH0I81XDDWMQO.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/PF/7D4WS76LE411KYNI3INJUD.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/7R/CJS73RVL4XW4G2E8R7Z53E.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/O4/0VNNHAO1J4J48PMUY5DV5A.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/ZK/92SHUDWC0X5UV4XNEXMYP4.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/FirstPerson/Blueprints/SpawnPoint.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/FirstPerson/Blueprints/Sphere.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/FirstPerson/Blueprints/PickupCube.uasset",
+				"C:/Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Content/FirstPerson/Blueprints/GameMode.uasset"
+			]
+		}
+	]
+}
