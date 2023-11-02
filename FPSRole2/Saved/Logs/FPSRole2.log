@@ -17948,3 +17948,641 @@ ImportObjectProperties() [D:\build\++UE5\Sync\Engine\Source\Editor\UnrealEd\Priv
 [2023.10.31-21.37.44:866][146]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2023.10.31-21.37.55:717][508]BlueprintLog: New page: Compile NewHud
 [2023.10.31-21.37.55:770][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.10.31-21.38.14:014][671]LogSlate: Window 'NewHud' being destroyed
+[2023.10.31-21.38.14:127][671]LogWorld: UWorld::CleanupWorld for World_160, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.38.14:127][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.38.14:141][671]LogWorld: UWorld::CleanupWorld for World_159, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.38.14:141][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.38.15:536][757]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.31-21.38.15:549][757]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.31-21.38.15:549][757]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.31-21.38.15:556][757]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 7 ms (total: 1.28 sec)
+[2023.10.31-21.38.15:556][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.31-21.38.15:557][757]PIE: New page: PIE session: FirstPersonMap (Oct 31, 2023, 1:38:15 PM)
+[2023.10.31-21.38.15:560][757]LogPlayLevel: Display: Creating online subsystem for client :Context_252
+[2023.10.31-21.38.15:563][757]LogOnline: OSS: Created online subsystem instance for: :Context_252
+[2023.10.31-21.38.15:608][758]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.31-21.38.15:620][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011409s)
+[2023.10.31-21.38.15:620][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011447s)
+[2023.10.31-21.38.15:639][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.10.31-21.38.15:646][758]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-21.38.15:646][758]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-21.38.15:647][758]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.31-21.38.15:648][758]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.31-21.38.15:648][758]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.31-21.38.15:648][758]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.31-21.38.15:648][758]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.31-21.38.15:650][758]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.31-21.38.15:650][758]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.33 sec)
+[2023.10.31-21.38.15:650][758]LogPlayLevel: PIE: World Init took: (0.004560s)
+[2023.10.31-21.38.15:650][758]LogAudio: Display: Creating Audio Device:                 Id: 96, Scope: Unique, Realtime: True
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.31-21.38.15:650][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.31-21.38.15:650][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.31-21.38.15:651][758]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.31-21.38.15:651][758]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.31-21.38.15:651][758]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.31-21.38.15:654][758]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.31-21.38.15:770][758]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Realtek(R) Audio)
+[2023.10.31-21.38.15:770][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.31-21.38.15:770][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.31-21.38.15:770][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.31-21.38.15:770][758]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=96
+[2023.10.31-21.38.15:771][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=96
+[2023.10.31-21.38.15:773][758]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=96
+[2023.10.31-21.38.15:773][758]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=96
+[2023.10.31-21.38.15:773][758]LogInit: FAudioDevice initialized with ID 96.
+[2023.10.31-21.38.15:773][758]LogAudio: Display: Audio Device (ID: 96) registered with world 'FirstPersonMap'.
+[2023.10.31-21.38.15:773][758]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 96
+[2023.10.31-21.38.15:776][758]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.31-21.38.15:780][758]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.31-17.38.15
+[2023.10.31-21.38.15:781][758]LogWorld: Bringing up level for play took: 0.004120
+[2023.10.31-21.38.15:796][758]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.15:796][758]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+[2023.10.31-21.38.15:796][758]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.38.15:796][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.15:797][758]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:797][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:798][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:798][758]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.15:798][758]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1684398815
+[2023.10.31-21.38.15:798][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:798][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:798][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.15:800][758]PIE: Server logged in
+[2023.10.31-21.38.15:801][758]PIE: Play in editor total start time 0.253 seconds.
+[2023.10.31-21.38.17:558][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.38.17:558][876]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.31-21.38.17:558][876]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.38.17:559][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.38.17:559][876]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.31-21.38.17:564][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.31-21.38.17:569][876]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.38.17:587][876]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.31-21.38.17:587][876]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 96
+[2023.10.31-21.38.17:587][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=96
+[2023.10.31-21.38.17:589][876]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=96
+[2023.10.31-21.38.17:598][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.38.17:602][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.10.31-21.38.17:777][877]LogPlayLevel: Display: Destroying online subsystem :Context_252
+[2023.10.31-21.38.19:064][946]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-21.38.19:079][946]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-21.38.39:303][369]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.31-21.38.39:315][369]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.31-21.38.39:316][369]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.31-21.38.39:327][369]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 11 ms (total: 1.29 sec)
+[2023.10.31-21.38.39:327][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.31-21.38.39:327][369]PIE: New page: PIE session: FirstPersonMap (Oct 31, 2023, 1:38:39 PM)
+[2023.10.31-21.38.39:341][369]LogPlayLevel: Display: Creating online subsystem for client :Context_253
+[2023.10.31-21.38.39:345][369]LogOnline: OSS: Created online subsystem instance for: :Context_253
+[2023.10.31-21.38.39:396][370]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.31-21.38.39:411][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014135s)
+[2023.10.31-21.38.39:411][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.014246s)
+[2023.10.31-21.38.39:430][370]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.10.31-21.38.39:435][370]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-21.38.39:436][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-21.38.39:436][370]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.31-21.38.39:437][370]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.31-21.38.39:437][370]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.31-21.38.39:438][370]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.31-21.38.39:438][370]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.31-21.38.39:440][370]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.31-21.38.39:440][370]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.34 sec)
+[2023.10.31-21.38.39:440][370]LogPlayLevel: PIE: World Init took: (0.004744s)
+[2023.10.31-21.38.39:440][370]LogAudio: Display: Creating Audio Device:                 Id: 97, Scope: Unique, Realtime: True
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.31-21.38.39:440][370]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.31-21.38.39:440][370]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.31-21.38.39:441][370]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.31-21.38.39:441][370]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.31-21.38.39:441][370]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.31-21.38.39:443][370]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.31-21.38.39:557][370]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Realtek(R) Audio)
+[2023.10.31-21.38.39:557][370]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.31-21.38.39:557][370]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.31-21.38.39:557][370]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.31-21.38.39:558][370]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=97
+[2023.10.31-21.38.39:558][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=97
+[2023.10.31-21.38.39:561][370]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=97
+[2023.10.31-21.38.39:561][370]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=97
+[2023.10.31-21.38.39:561][370]LogInit: FAudioDevice initialized with ID 97.
+[2023.10.31-21.38.39:562][370]LogAudio: Display: Audio Device (ID: 97) registered with world 'FirstPersonMap'.
+[2023.10.31-21.38.39:562][370]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 97
+[2023.10.31-21.38.39:564][370]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.31-21.38.39:570][370]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.31-17.38.39
+[2023.10.31-21.38.39:571][370]LogWorld: Bringing up level for play took: 0.005595
+[2023.10.31-21.38.39:585][370]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.39:585][370]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+[2023.10.31-21.38.39:585][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.38.39:585][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:585][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.38.39:585][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:585][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.38.39:586][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:586][370]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.39:586][370]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+[2023.10.31-21.38.39:586][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.38.39:586][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:586][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.38.39:586][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:586][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.38.39:586][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:586][370]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.39:587][370]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+[2023.10.31-21.38.39:587][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.38.39:587][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:587][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.38.39:587][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:587][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.38.39:588][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:588][370]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.38.39:588][370]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+[2023.10.31-21.38.39:588][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.38.39:588][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:588][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.38.39:588][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:588][370]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1852664074
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.38.39:588][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.38.39:588][370]PIE: Server logged in
+[2023.10.31-21.38.39:589][370]PIE: Play in editor total start time 0.274 seconds.
+[2023.10.31-21.38.44:464][699]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -1
+[2023.10.31-21.38.44:504][702]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0
+[2023.10.31-21.38.45:179][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.38.45:179][749]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.31-21.38.45:180][749]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.38.45:181][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.38.45:181][749]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.31-21.38.45:187][749]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.31-21.38.45:194][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.38.45:214][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.38.45:215][749]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 97
+[2023.10.31-21.38.45:215][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=97
+[2023.10.31-21.38.45:218][749]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=97
+[2023.10.31-21.38.45:238][749]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.10.31-21.38.45:433][750]LogPlayLevel: Display: Destroying online subsystem :Context_253
+[2023.10.31-21.38.46:791][819]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-21.38.46:826][819]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-21.39.33:989][527]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.10.31-21.39.34:001][527]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.10.31-21.39.34:001][527]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2023.10.31-21.39.34:012][527]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 11 ms (total: 1.30 sec)
+[2023.10.31-21.39.34:012][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.10.31-21.39.34:012][527]PIE: New page: PIE session: FirstPersonMap (Oct 31, 2023, 1:39:34 PM)
+[2023.10.31-21.39.34:029][527]LogPlayLevel: Display: Creating online subsystem for client :Context_254
+[2023.10.31-21.39.34:033][527]LogOnline: OSS: Created online subsystem instance for: :Context_254
+[2023.10.31-21.39.34:079][528]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.31-21.39.34:092][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012843s)
+[2023.10.31-21.39.34:092][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.012894s)
+[2023.10.31-21.39.34:111][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.10.31-21.39.34:118][528]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-21.39.34:118][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-21.39.34:119][528]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.10.31-21.39.34:120][528]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.31-21.39.34:120][528]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.31-21.39.34:120][528]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2023.10.31-21.39.34:120][528]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.31-21.39.34:123][528]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2023.10.31-21.39.34:123][528]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 4.34 sec)
+[2023.10.31-21.39.34:123][528]LogPlayLevel: PIE: World Init took: (0.005073s)
+[2023.10.31-21.39.34:123][528]LogAudio: Display: Creating Audio Device:                 Id: 98, Scope: Unique, Realtime: True
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.10.31-21.39.34:123][528]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.10.31-21.39.34:123][528]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.10.31-21.39.34:124][528]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.10.31-21.39.34:124][528]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.10.31-21.39.34:124][528]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.10.31-21.39.34:128][528]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.10.31-21.39.34:251][528]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- Realtek(R) Audio)
+[2023.10.31-21.39.34:251][528]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.10.31-21.39.34:251][528]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.10.31-21.39.34:251][528]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.10.31-21.39.34:252][528]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=98
+[2023.10.31-21.39.34:252][528]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=98
+[2023.10.31-21.39.34:255][528]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=98
+[2023.10.31-21.39.34:255][528]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=98
+[2023.10.31-21.39.34:264][528]LogInit: FAudioDevice initialized with ID 98.
+[2023.10.31-21.39.34:264][528]LogAudio: Display: Audio Device (ID: 98) registered with world 'FirstPersonMap'.
+[2023.10.31-21.39.34:264][528]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 98
+[2023.10.31-21.39.34:271][528]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.31-21.39.34:276][528]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.10.31-17.39.34
+[2023.10.31-21.39.34:276][528]LogWorld: Bringing up level for play took: 0.004356
+[2023.10.31-21.39.34:292][528]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.39.34:292][528]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1687300816
+[2023.10.31-21.39.34:292][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:292][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.39.34:293][528]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1687300816
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.39.34:293][528]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1687300816
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:293][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:294][528]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.39.34:294][528]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCA7B701_1687300816
+[2023.10.31-21.39.34:294][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:294][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:294][528]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.39.34:296][528]PIE: Server logged in
+[2023.10.31-21.39.34:297][528]PIE: Play in editor total start time 0.296 seconds.
+[2023.10.31-21.39.38:764][825]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 1
+[2023.10.31-21.39.40:833][969]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 2
+[2023.10.31-21.39.41:472][ 16]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 1
+[2023.10.31-21.39.41:499][ 18]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 2
+[2023.10.31-21.39.42:710][105]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 1
+[2023.10.31-21.39.43:273][144]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0
+[2023.10.31-21.39.51:624][744]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 1
+[2023.10.31-21.39.52:316][796]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 2
+[2023.10.31-21.39.54:263][934]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 3
+[2023.10.31-21.39.59:588][324]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 4
+[2023.10.31-21.39.59:915][348]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 5
+[2023.10.31-21.40.00:148][363]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 6
+[2023.10.31-21.40.09:085][998]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 7
+[2023.10.31-21.40.09:779][ 45]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 8
+[2023.10.31-21.40.12:969][261]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 9
+[2023.10.31-21.40.16:145][490]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 10
+[2023.10.31-21.40.17:201][564]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 11
+[2023.10.31-21.40.17:846][609]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 12
+[2023.10.31-21.40.18:387][647]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 13
+[2023.10.31-21.40.18:609][663]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 14
+[2023.10.31-21.40.19:561][727]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 15
+[2023.10.31-21.40.19:755][739]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 16
+[2023.10.31-21.40.20:230][772]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 17
+[2023.10.31-21.40.20:642][803]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 18
+[2023.10.31-21.40.21:372][855]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 19
+[2023.10.31-21.40.21:754][883]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 20
+[2023.10.31-21.40.25:972][192]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 21
+[2023.10.31-21.40.26:725][248]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 22
+[2023.10.31-21.40.29:873][474]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 23
+[2023.10.31-21.40.30:414][512]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 24
+[2023.10.31-21.40.31:028][560]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 25
+[2023.10.31-21.40.31:028][560]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] You Win!
+[2023.10.31-21.40.31:029][560]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] YOU WIN!!
+[2023.10.31-21.40.31:040][561]LogNet: Browse: /Game/FirstPerson/Maps/WinLevel
+[2023.10.31-21.40.31:040][561]LogLoad: LoadMap: /Game/FirstPerson/Maps/WinLevel
+[2023.10.31-21.40.31:040][561]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.10.31-21.40.31:042][561]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.40.31:043][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.40.31:043][561]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2023.10.31-21.40.31:097][561]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.31-21.40.31:101][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.10.31-21.40.31:123][561]LogAudio: Display: Audio Device (ID: 98) registered with world 'WinLevel'.
+[2023.10.31-21.40.31:123][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.10.31-21.40.31:123][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.10.31-21.40.31:124][561]LogAIModule: Creating AISystem for world WinLevel
+[2023.10.31-21.40.31:124][561]LogWorldPartition: ULevel::OnLevelLoaded(WinLevel)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.10.31-21.40.31:124][561]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.10.31-21.40.31:124][561]LogWorldPartition: UWorldPartition::Initialize : World = WinLevel, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2023.10.31-21.40.31:124][561]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2023.10.31-21.40.31:128][561]LogWorldPartition: Display: GenerateStreaming for 'WinLevel' started...
+[2023.10.31-21.40.31:286][561]LogWorldPartition: Display: GenerateStreaming for 'WinLevel' took 158 ms (total: 1.46 sec)
+[2023.10.31-21.40.31:289][561]LogContentBundle: [WinLevel(Standalone)] Creating new contrainer.
+[2023.10.31-21.40.31:290][561]LogWorldPartition: Display: WorldPartition initialize took 165 ms (total: 4.50 sec)
+[2023.10.31-21.40.31:290][561]LogPlayLevel: PIE: World Init took: (0.166838s)
+[2023.10.31-21.40.31:290][561]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.10.31-21.40.31:306][561]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel up for play (max tick rate 0) at 2023.10.31-17.40.31
+[2023.10.31-21.40.31:306][561]LogWorld: Bringing up level for play took: 0.016415
+[2023.10.31-21.40.31:322][561]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.40.31:322][561]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+[2023.10.31-21.40.31:322][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.40.31:322][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:322][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.40.31:322][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:322][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.40.31:323][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.40.31:323][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.40.31:323][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.40.31:323][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.40.31:323][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:323][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.40.31:323][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:324][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.40.31:324][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:324][561]LogScript: Warning: Script Msg: Attempted to access random index from empty array!
+[2023.10.31-21.40.31:324][561]LogScript: Warning: Script Msg called by: SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+[2023.10.31-21.40.31:324][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:0197
+[2023.10.31-21.40.31:324][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:324][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:024E
+[2023.10.31-21.40.31:324][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  SpawnActor Sphere Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:324][561]LogScript: Warning: Accessed None trying to read property Local Item
+	SpawnPoint_C /Game/FirstPerson/Maps/UEDPIE_0_WinLevel.WinLevel:PersistentLevel.SpawnPoint_C_UAID_088FC30B5ACCF2B701_1845451072
+	Function /Game/FirstPerson/Blueprints/SpawnPoint.SpawnPoint_C:SpawnPages:032E
+[2023.10.31-21.40.31:324][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Local Item". Node:  Destroy Actor Graph:  SpawnPages Function:  Spawn Pages Blueprint:  SpawnPoint
+[2023.10.31-21.40.31:325][561]LogLoad: Took 0.285362 seconds to LoadMap(/Game/FirstPerson/Maps/WinLevel)
+[2023.10.31-21.40.44:167][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.40.44:168][446]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_WinLevel
+[2023.10.31-21.40.44:168][446]LogWorld: UWorld::CleanupWorld for WinLevel, bSessionEnded=true, bCleanupResources=true
+[2023.10.31-21.40.44:169][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.40.44:170][446]LogContentBundle: [WinLevel(Standalone)] Deleting container.
+[2023.10.31-21.40.44:177][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.10.31-21.40.44:183][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.31-21.40.44:205][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.10.31-21.40.44:206][446]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 98
+[2023.10.31-21.40.44:206][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98
+[2023.10.31-21.40.44:208][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=98
+[2023.10.31-21.40.44:229][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.10.31-21.40.44:446][447]LogPlayLevel: Display: Destroying online subsystem :Context_254
+[2023.10.31-21.40.46:048][531]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-21.40.46:072][531]LogSlate: Window 'Message Log' being destroyed
+[2023.10.31-21.41.15:680][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2023.10.31-21.41.15:686][903]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.025
+[2023.10.31-21.41.15:686][903]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Input/NewHud] ([2] browsable assets)...
+[2023.10.31-21.41.15:690][903]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/FirstPerson/Input/NewHud.NewHud]
+[2023.10.31-21.41.15:690][903]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Input/NewHud]
+[2023.10.31-21.41.15:702][903]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Input/NewHud_Auto3
+[2023.10.31-21.41.15:702][903]LogSavePackage: Moving '../../../../../../Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Saved/NewHud_Auto3203508174A6B18A2B2B614AB81F016C9.tmp' to '../../../../../../Users/jslut/OneDrive/Documents/GitHub/FPSRoleAnalysis/FPSRole2/Saved/Autosaves/Game/FirstPerson/Input/NewHud_Auto3.uasset'
+[2023.10.31-21.41.15:703][903]LogFileHelpers: Auto-saving content packages took 0.018
+[2023.10.31-21.53.12:612][ 51]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.10.31-21.53.12:653][ 51]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.10.31-21.53.13:312][ 53]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=490.63
+[2023.10.31-21.53.13:312][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.10.31-21.53.13:316][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.01-00.53.17:075][ 61]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-00.53.18:132][ 62]LogHttp: Warning: 00000A251FE26400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.01-00.53.18:132][ 62]LogHttp: Warning: 00000A251FE26400: libcurl info message cache 0 (Too old connection (10825 seconds idle), disconnect it)
+[2023.11.01-00.53.18:132][ 62]LogHttp: Warning: 00000A251FE26400: libcurl info message cache 1 (Connection 27 seems to be dead)
+[2023.11.01-00.53.18:132][ 62]LogHttp: Warning: 00000A251FE26400: libcurl info message cache 2 (Closing connection 27)
+[2023.11.01-00.53.18:133][ 62]LogHttp: Warning: 00000A251FE26400: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.01-00.53.18:133][ 62]LogHttp: Warning: 00000A251FE26400: libcurl info message cache 4 (Closing connection 28)
+[2023.11.01-00.53.18:134][ 62]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.01-00.53.18:680][ 62]Could not fetch the local adapter addresses
+[2023.11.01-00.53.18:681][ 62]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-00.53.19:272][ 63]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-00.53.22:436][ 69]Could not fetch the local adapter addresses
+[2023.11.01-00.53.22:438][ 69]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-00.53.22:853][ 70]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-00.53.25:307][ 73]LogUdpMessaging: Display: Added local interface '192.168.0.22' to multicast group '230.0.0.1:6666'
+[2023.11.01-22.16.44:017][122]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.46:426][123]LogHttp: Warning: 00000A251FE20A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.01-22.16.46:427][123]LogHttp: Warning: 00000A251FE20A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.01-22.16.46:427][123]LogHttp: Warning: 00000A251FE20A00: libcurl info message cache 1 (Closing connection 29)
+[2023.11.01-22.16.46:427][123]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.01-22.16.46:621][123]Could not fetch the local adapter addresses
+[2023.11.01-22.16.46:621][123]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-22.16.46:736][124]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.48:737][130]LogHttp: Warning: 00000A251FE20A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.01-22.16.48:737][130]LogHttp: Warning: 00000A251FE20A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.01-22.16.48:737][130]LogHttp: Warning: 00000A251FE20A00: libcurl info message cache 1 (Closing connection 30)
+[2023.11.01-22.16.48:737][130]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.01-22.16.49:024][130]Could not fetch the local adapter addresses
+[2023.11.01-22.16.49:024][130]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-22.16.49:086][131]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.50:957][136]Could not fetch the local adapter addresses
+[2023.11.01-22.16.50:957][136]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-22.16.51:086][137]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.52:911][142]Could not fetch the local adapter addresses
+[2023.11.01-22.16.52:912][142]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-22.16.53:088][143]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.54:952][148]Could not fetch the local adapter addresses
+[2023.11.01-22.16.54:952][148]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-22.16.55:085][149]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.56:885][154]Could not fetch the local adapter addresses
+[2023.11.01-22.16.56:885][154]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.01-22.16.57:087][155]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.01-22.16.59:205][160]LogUdpMessaging: Display: Added local interface '169.254.222.116' to multicast group '230.0.0.1:6666'
+[2023.11.01-22.18.12:945][376]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.01-22.46.08:452][376]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [1676 Seconds] waiting for h/w. InstanceID=1
+[2023.11.01-22.46.13:415][376]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.01-22.46.18:414][379]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.01-22.46.23:414][390]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.01-22.46.26:114][397]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=12684.27
+[2023.11.01-22.46.26:116][397]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.01-22.46.26:132][397]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.01-22.46.26:437][398]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.01-22.46.27:114][400]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=668.17
+[2023.11.01-22.46.27:115][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.01-22.46.27:407][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.01-22.57.11:495][330]LogDerivedDataCache: C:/Users/jslut/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.365 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1247 files in 1897 folders with total size 14 MiB.
+[2023.11.02-02.06.16:763][960]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-02.06.16:786][960]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [10805 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-02.06.17:335][960]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-02.06.17:679][962]LogHttp: Warning: 00000A251FE20F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.02-02.06.17:679][962]LogHttp: Warning: 00000A251FE20F00: libcurl info message cache 0 (Too old connection (10824 seconds idle), disconnect it)
+[2023.11.02-02.06.17:679][962]LogHttp: Warning: 00000A251FE20F00: libcurl info message cache 1 (Connection 33 seems to be dead)
+[2023.11.02-02.06.17:680][962]LogHttp: Warning: 00000A251FE20F00: libcurl info message cache 2 (Closing connection 33)
+[2023.11.02-02.06.17:680][962]LogHttp: Warning: 00000A251FE20F00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.02-02.06.17:680][962]LogHttp: Warning: 00000A251FE20F00: libcurl info message cache 4 (Closing connection 34)
+[2023.11.02-02.06.17:680][962]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.02-02.06.22:335][964]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-02.06.23:655][964]Could not fetch the local adapter addresses
+[2023.11.02-02.06.23:656][964]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-02.06.24:962][965]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-02.06.27:336][967]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-02.06.27:395][967]Could not fetch the local adapter addresses
+[2023.11.02-02.06.27:395][967]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-02.06.28:967][968]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-02.06.32:336][970]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-02.06.35:550][971]LogUdpMessaging: Display: Added local interface '192.168.0.22' to multicast group '230.0.0.1:6666'
+[2023.11.02-02.06.35:689][971]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=18302.46
+[2023.11.02-02.06.35:689][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-02.06.35:710][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-02.06.36:025][972]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-02.06.39:386][982]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=3344.51
+[2023.11.02-02.06.39:387][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-02.06.39:405][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-04.52.00:207][992]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.03:021][993]Could not fetch the local adapter addresses
+[2023.11.02-04.52.03:021][993]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-04.52.03:092][994]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.03:092][994]LogHttp: Warning: 00000A251FE27300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.02-04.52.03:092][994]LogHttp: Warning: 00000A251FE27300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.02-04.52.03:093][994]LogHttp: Warning: 00000A251FE27300: libcurl info message cache 1 (Closing connection 35)
+[2023.11.02-04.52.03:093][994]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.02-04.52.04:573][998]Could not fetch the local adapter addresses
+[2023.11.02-04.52.04:573][998]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-04.52.04:759][999]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.06:605][  4]Could not fetch the local adapter addresses
+[2023.11.02-04.52.06:606][  4]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-04.52.06:758][  5]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.08:555][ 10]Could not fetch the local adapter addresses
+[2023.11.02-04.52.08:555][ 10]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-04.52.08:761][ 11]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.10:594][ 16]Could not fetch the local adapter addresses
+[2023.11.02-04.52.10:594][ 16]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2023.11.02-04.52.10:759][ 17]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.12:724][ 22]LogUdpMessaging: Display: Added local interface '169.254.222.116' to multicast group '230.0.0.1:6666'
+[2023.11.02-04.52.41:805][110]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2023.11.02-04.52.43:675][115]Could not fetch the local adapter addresses
+[2023.11.02-04.52.43:676][115]LogUdpMessaging: Display: Added local interface '0.0.0.0' to multicast group '230.0.0.1:6666'
+[2023.11.02-05.42.26:641][ 61]LogDerivedDataCache: C:/Users/jslut/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.378 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1247 files in 1897 folders with total size 14 MiB.
+[2023.11.02-06.42.27:457][859]LogDerivedDataCache: C:/Users/jslut/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.193 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1247 files in 1897 folders with total size 14 MiB.
+[2023.11.02-07.16.34:643][996]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-07.16.34:683][996]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-07.16.35:376][998]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=637.79
+[2023.11.02-07.16.35:377][998]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-07.16.35:382][998]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-12.20.51:351][  8]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2023.11.02-12.20.51:971][ 10]LogHttp: Warning: 00000A251FE21E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.02-12.20.51:971][ 10]LogHttp: Warning: 00000A251FE21E00: libcurl info message cache 0 (Too old connection (18304 seconds idle), disconnect it)
+[2023.11.02-12.20.51:971][ 10]LogHttp: Warning: 00000A251FE21E00: libcurl info message cache 1 (Connection 36 seems to be dead)
+[2023.11.02-12.20.51:971][ 10]LogHttp: Warning: 00000A251FE21E00: libcurl info message cache 2 (Closing connection 36)
+[2023.11.02-12.20.51:971][ 10]LogHttp: Warning: 00000A251FE21E00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.02-12.20.51:971][ 10]LogHttp: Warning: 00000A251FE21E00: libcurl info message cache 4 (Closing connection 37)
+[2023.11.02-12.20.51:972][ 10]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.02-12.24.29:663][193]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [148 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-12.24.33:348][193]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2023.11.02-12.24.33:889][193]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-12.24.36:480][201]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2379.25
+[2023.11.02-12.24.36:480][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-12.24.36:485][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-12.34.01:982][580]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [109 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-12.34.02:241][580]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2023.11.02-12.34.04:082][580]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-12.34.09:082][588]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-12.34.14:083][601]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-12.34.18:171][610]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=13921.54
+[2023.11.02-12.34.18:173][610]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-12.34.18:219][610]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-12.34.18:297][611]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-12.34.23:298][624]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-12.34.27:113][635]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=8666.91
+[2023.11.02-12.34.27:114][635]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-12.34.27:121][635]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-12.34.27:440][636]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-12.34.29:445][642]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1996.53
+[2023.11.02-12.34.29:445][642]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-12.34.29:452][642]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-13.44.18:822][773]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4150 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-13.44.20:251][773]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2023.11.02-13.44.20:557][773]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-13.44.20:953][776]LogHttp: Warning: 00000A251FE22800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.02-13.44.20:953][776]LogHttp: Warning: 00000A251FE22800: libcurl info message cache 0 (Too old connection (4211 seconds idle), disconnect it)
+[2023.11.02-13.44.20:953][776]LogHttp: Warning: 00000A251FE22800: libcurl info message cache 1 (Connection 41 seems to be dead)
+[2023.11.02-13.44.20:953][776]LogHttp: Warning: 00000A251FE22800: libcurl info message cache 2 (Closing connection 41)
+[2023.11.02-13.44.20:953][776]LogHttp: Warning: 00000A251FE22800: libcurl info message cache 3 (Hostname in DNS cache was stale, zapped)
+[2023.11.02-13.44.20:953][776]LogHttp: Warning: 00000A251FE22800: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.02-13.44.20:954][776]LogHttp: Warning: 00000A251FE22800: libcurl info message cache 5 (Closing connection 42)
+[2023.11.02-13.44.20:954][776]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.02-13.44.25:558][783]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-13.44.30:559][787]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-13.44.33:017][791]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=11505.31
+[2023.11.02-13.44.33:027][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-13.44.33:305][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-13.44.33:344][792]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-13.44.38:344][803]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-13.44.43:347][814]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-13.44.45:600][820]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=12238.41
+[2023.11.02-13.44.45:602][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-13.44.45:622][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-13.44.45:989][821]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-13.44.49:018][830]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2930.49
+[2023.11.02-13.44.49:018][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-13.44.49:025][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-15.15.49:962][631]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5198 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-15.15.50:372][631]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: libcurl info message cache 0 (Too old connection (5221 seconds idle), disconnect it)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: libcurl info message cache 1 (Connection 43 seems to be dead)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: libcurl info message cache 2 (Closing connection 43)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: 00000A251FE28200: libcurl info message cache 5 (Closing connection 44)
+[2023.11.02-15.15.50:380][631]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCC573478-47E1-C472-2A90-D29C24C03361%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.1-28051148%2B%2B%2BUE5%2BRelease-5.3&UserID=ac0cd0b048405d5205bcd1b0c8d68f5c%7C2ad60860fde040e7a8c5a138d6861430%7Ce3e721ae-c0a8-4428-b2dd-cbd15d8200d9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2023.11.02-15.15.50:657][631]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-15.15.55:658][646]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-15.15.57:694][650]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=6543.43
+[2023.11.02-15.15.57:695][650]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-15.15.58:409][650]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-15.15.58:545][651]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-15.16.03:545][662]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-15.16.08:587][662]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-15.16.13:563][676]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2023.11.02-15.16.14:182][677]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=15375.85
+[2023.11.02-15.16.14:184][677]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-15.16.14:204][677]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.11.02-15.16.14:486][678]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19100
+[2023.11.02-15.16.17:491][687]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{70a8a9d7-636f-449c-99a5-fdc750b87c36}, Name=Speakers (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2783.40
+[2023.11.02-15.16.17:491][687]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.11.02-15.16.17:509][687]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
